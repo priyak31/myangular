@@ -4,7 +4,7 @@ After installing node.js check version by node -v in a terminal/console window.
 ----------------------------------------------------------------------------------
 Diffrece Between Angularjs vs Angular
 
-Sr. No.	Key	AngularJS	Angular
+
 1	Architecture
 AngularJS works on MVC, Model View Controller Design. 
 Here View shows the information present in the model and controller processes the information.	
