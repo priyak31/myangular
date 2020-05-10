@@ -1,0 +1,69 @@
+Requirement for installing Angular9
+-Node.js -> If you want to install Node.js then to get Node.js, go to nodejs.org
+After installing node.js check version by node -v in a terminal/console window.
+----------------------------------------------------------------------------------
+Diffrece Between Angularjs vs Angular
+
+Sr. No.	Key	AngularJS	Angular
+1	Architecture
+AngularJS works on MVC, Model View Controller Design. 
+Here View shows the information present in the model and controller processes the information.	
+Angular uses components and directives. Here component is directive with a template.
+
+2	Language	
+AngularJS code is written in javascript.	Angular code is written in typescript.
+
+3	Mobile
+AngularJS code is not mobile friendly.	
+Angular develped applications are mobile browser friendly.
+
+4	Expression syntax	
+{{}} are used to bind data between view and model.
+Special methods, ng-bind can also be used to do the same.	() and [] attributes are used to bind data between view and model.
+
+5	Dependency Injection	
+DI is not used.	Hiearchical DI system is used in Angular.
+
+6	Routing	@routeProvider
+.when, then are used to provide routing information.	
+@Route configuration is used to define routing information.
+
+7	Management
+AngularJS project is difficult to manage with increasing size of the source code.
+Angular code is better structured, is easy to create and manage bigger applications.
+----------------------------------------------------------------------------------------------------------------
+
+Installing Step angular 9
+
+-Install the Angular CLI
+    npm install -g @angular/cli
+    
+-Create new project using below command
+    ng new myproj   
+    
+-Press "y" for create routing module and press Enter key.
+    ? Would you like to generate a routing module? (y/N)y  
+    
+-Select stylesheet format for this project and press Enter key. If you want another stylesheet format then you can select format by press up-down arrow key.
+
+  ? Which stylesheet format would you like to use? CSS
+  CSS
+  SCSS   [ http://sass-lang.com   ]
+  SASS   [ http://sass-lang.com   ]
+  LESS   [ http://lesscss.org     ]
+  Stylus [ http://stylus-lang.com ]   
+  
+ - Load project directory "myproj"
+    cd myproj
+    
+ - Now run this project
+    ng serve --open
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
